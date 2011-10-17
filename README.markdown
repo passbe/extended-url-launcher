@@ -10,7 +10,5 @@ This is a simple bash script I wrote that switches between browsers when clickin
 
 ## How to use
 
-1. Open the script and edit the `BROWSERS` array to your liking.
-    BROWSERS=( firefox chromium )
-2. Modify your terminal client to use this script. For example I use urxvt thus I modified my `.Xdefaults` file as follows:
-    URxvt.urlLauncher: /your/path/to/this/script.sh
+1. Open the script and edit the `BROWSERS` array to your liking. `BROWSERS=( firefox chromium )`
+2. Modify your terminal client to use this script. For example I use urxvt thus I modified my `.Xdefaults` file as follows: `URxvt.urlLauncher: /your/path/to/this/script.sh`
